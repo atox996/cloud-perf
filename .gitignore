@@ -1,0 +1,54 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*.swp
+
+# VSCode specific files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Dependency directories
+node_modules
+bower_components
+.pnpm
+
+# Build directories
+dist
+build
+out
+
+# Environment variable files
+.env
+.env.test
+
+# IDE specific files
+.idea
+.project
+.classpath
+.c9
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.lock
+*.cache
+*.pid
+*.seed
+*.pid.lock

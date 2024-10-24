@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --exec esno src/index.ts",
+    "build": "vite build",
+    "preview": "pnpm start"
+  },
+  "devDependencies": {
+    "esno": "^4.7.0",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "mime": "^4.0.4"
+  }
+}
